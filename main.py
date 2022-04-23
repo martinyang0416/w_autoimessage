@@ -193,14 +193,10 @@ def prepare_message():
     weather_description = str(weather_description)
     current = datetime.today().strftime('%Y-%m-%d-%H:%M:%S')
 
-    # sentence_4 = f"Good Morning, Mr. Han.\n\nToday is {current}.\nTemperature is {current_temperature}.\nAtmospheric " \
-    #              f"pressure is {current_pressure}.\nHumidity is {current_humidity}.\nDescription is {weather_description}.\n\n" \
-    #              f"Today share: {today_sentence}\n\nHave a good day, Sir Dechen Han."
-
-    sentence_4 = f"Good Morning, Mr. Wei.\n\nToday is {current}.\nToday lucky number is {today_number}.\nToday " \
+    sentence_4 = f"Good Morning, Mr. Yang.\n\nToday is {current}.\nToday lucky number is {today_number}.\nToday " \
                  f"lucky colour is {today_color}.\n\nTemperature is {current_temperature}.\nAtmospheric " \
                  f"pressure is {current_pressure}.\nHumidity is {current_humidity}.\nDescription is {weather_description}.\n\n" \
-                 f"Today share: {today_sentence}\n\nHave a good day, Sir Ertong Wei."
+                 f"Today share: {today_sentence}\n\nHave a good day, Sir Martin Yang."
     message = [sentence_4]
 
     global global_list
