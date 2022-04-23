@@ -158,7 +158,7 @@ def prepare_message():
         'yellowgreen': '#9ACD32'}
 
     # temperature API
-    api_key = "c2b907d7afa19047e69979b4e75494af"
+    api_key = "大家自己申请个api key"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     city_name = "Toronto"
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
